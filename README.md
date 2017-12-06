@@ -5,5 +5,5 @@
 This package should be used as dependencies only
 
 ```sh
-source ${SCRIPT_BASE}/deps/shcolorizer/shcolorizer
+__load "${BASH_SOURCE[0]}" "shcolorizer"
 ```
